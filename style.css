@@ -1,0 +1,90 @@
+/* cancel the margin and padding on the whole page and add a background color */
+/* annule la marge et le padding de toute la page et ajoute une couleur de fond */
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+/* add font at all elements of page */
+/* ajout de la police sur tous les éléments de la page */
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* container who center all elements */
+/* conteneur que centre tous les éléments de la page */
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* body of window */
+/* corps de la fenêtre */
+.window{
+    height: 550px;
+    width: 800px;
+    background-color: #575757;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    border-radius: 20px;
+}
+
+/* title of window */
+/* titre de la fenêtre */
+.explorerTitle{
+    color: white;
+    width: 97%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+/* zone to grab for move element at top of window */ 
+/* zone à attrapée pour bouger l'élément, elle est placée au top de la fenêtre */ 
+#moveable{
+    width: 710px;
+    height: 27px;
+    z-index: 1;
+    border-radius: 20px 0 0 0;
+    position: absolute;
+    cursor: move;
+}
+
+
+/* decorations buttons */
+/* boutons de décorations */
+.rounded{
+    border-radius: 20px;
+    width: 16px;
+    height: 16px;
+    margin: 5px 5px 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-RGY{
+    margin-left: 90%;
+    position: relative;
+    top: -40px;
+    cursor: default;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: lime;
+}
+
