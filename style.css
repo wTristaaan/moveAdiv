@@ -88,3 +88,19 @@ body, html{
     background-color: lime;
 }
 
+.little{
+    display: none;
+}
+
+@media screen and (max-width: 1280px)
+{
+    .container{
+        display: none;
+    }
+    
+    .little{
+        color: black;
+        display: block;
+        text-align: center;
+    }
+}
