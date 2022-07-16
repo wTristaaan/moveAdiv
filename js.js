@@ -1,5 +1,5 @@
 /* get grab zone */ 
-/* obtient la zone a attrapée */
+/* obtient la zone à attraper */
 moveable = document.getElementById('moveable')
 
 /* get the element to move */ 
@@ -13,7 +13,7 @@ function newPosition(r) {
     /* obtient le sinus de la postion */
     x = 400 * Math.sin(r),
     /* get cosinus of position */
-    /* obtine le cosinus de la postion */
+    /* obtient le cosinus de la postion */
     y = 400 * Math.cos(r);
 
     /* add new position calculed to element */
@@ -23,7 +23,7 @@ function newPosition(r) {
 }
 
 /* dragging an element for smooth movement */
-/* glessement de l'élément pour un mouvement fluid */
+/* glissement de l'élément pour un mouvement fluide */
 function slide(e) {
 
     /* give mouse position of element --> + 250 to let mouse at top of window */

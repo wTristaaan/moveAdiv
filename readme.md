@@ -12,7 +12,7 @@ Ce bout de code est utiliser pour bouger une div comme une fenêtre dans une pag
 ## Installation
 
 ```bash
-git clone git@github.com:wTristaaan/moveADiv.git
+git clone git@github.com:wTristaaan/moveAdiv.git
 ```
 
 ## Contributor / Contributeur
